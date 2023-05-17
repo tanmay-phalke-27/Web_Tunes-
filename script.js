@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Cielo - Huma-Huma", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "DEAF KEV - Invincible [NCS Release]-320k", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Different Heaven & EH!DE - My Heart [NCS Release]", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Peaches - Justin Beiber", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "As It Was - Harry Styles", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Blinding Lights - Weekend", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "The Nights - Avicii", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Counting Stars - OneRepublic", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "O Sheth - Umesh Gawali", filePath: "OSheth.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Malang Sajna - Sachet, Parampara", filePath: "MalangSajna.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Apna Bana Le - Arijit Singh", filePath: "ApnaBanaLe.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Kesariya - Arijit Singh", filePath: "Kesariya.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Night Changes - Zayn Malik", filePath: "NightChanges.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Peaches - Justin Beiber", filePath: "Peaches.mp3", coverPath: "covers/6.jpg"},
+    {songName: "As It Was - Harry Styles", filePath: "AsItWas.mp3", coverPath: "covers/7.jpg"},
+    {songName: "Love Me Like You Do - Ellie Goulding", filePath: "LoveMeLikeYouDo.mp3", coverPath: "covers/8.jpg"},
+    {songName: "The Nights - Avicii", filePath: "TheNights.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Counting Stars - OneRepublic", filePath: "CountingStars.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
